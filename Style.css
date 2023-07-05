@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  background-color: #4b93bf;
+  justify-content: space-between;
+  color: #ffffff;
+}
+figure {
+  display: flex;
+  align-items: center;
+  width: 26vw;
+}
+nav {
+  width: 40vw;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 14vh;
+  font-size: 24px;
+}
+.primeiraSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+}
+p {
+  color: #0f468c;
+  width: 34vw;
+  font-size: 20px;
+}
